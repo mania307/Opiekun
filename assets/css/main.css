@@ -2483,10 +2483,11 @@ input[type="radio"]+label:before {
 	margin: 0 0 3em 0;
 	width: 100%;
 	height: 300px;
-	background-image: url(../../images/team3.jpg);
-	/* <img src="images/team1.jpg" alt="" /> */
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+}
+
+.image.main img {
+	width: 100%;
+	max-height: 300px;
 }
 
 
@@ -2494,6 +2495,7 @@ input[type="radio"]+label:before {
 
 	.image.main {
 		margin: 0 0 2em 0;
+		height: 15vh;
 	}
 
 }
@@ -2830,15 +2832,15 @@ button:disabled,
 }
 
 .tiles article.style1>.image:before {
-	background-color: #84c6f2;
+	background-color: #8d7967;
 }
 
 .tiles article.style2>.image:before {
-	background-color: #7ecaf6;
+	background-color: #0496eb;
 }
 
 .tiles article.style3>.image:before {
-	background-color: #7bd0c1;
+	background-color: #3c9e8c;
 }
 
 .tiles article.style4>.image:before {
@@ -3281,6 +3283,18 @@ body.is-menu-visible #menu .close {
 #main {
 	padding: 0em 0 6em 0;
 }
+
+
+.companies {
+	margin: 6em 0 3em 0;
+	text-align: center;
+}
+
+.companies img {
+	margin: 1em 2em;
+}
+
+
 
 @media screen and (max-width: 736px) {
 
