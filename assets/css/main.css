@@ -317,7 +317,7 @@ h6 {
 	line-height: 1.5;
 	margin: 0 0 2em 0;
 	text-transform: uppercase;
-	letter-spacing: 0.35em;
+	letter-spacing: 0.2em;
 }
 
 h2 a,
@@ -2955,7 +2955,7 @@ body.is-touch .tiles article .content {
 /* Header */
 
 #header {
-	padding: 3em 0 0.1em 0;
+	padding: 2em 0 0.1em 0;
 }
 
 #header .logo {
@@ -2977,12 +2977,13 @@ body.is-touch .tiles article .content {
 
 #header .logo .symbol {
 	margin-right: 0.65em;
+	margin-left: 0.65em;
 }
 
 #header .logo .symbol img {
 	display: block;
-	width: 2em;
-	height: 2em;
+	width: 5em;
+	height: 5em;
 }
 
 #header nav {
@@ -3075,7 +3076,7 @@ body.is-touch .tiles article .content {
 @media screen and (max-width: 736px) {
 
 	#header {
-		padding: 4em 0 0.1em 0;
+		padding: 0.2em 0 0.1em 0;
 	}
 
 	#header nav {
